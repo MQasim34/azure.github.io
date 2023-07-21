@@ -235,6 +235,13 @@
     .blogSec1osuter .blogSec1 .innerContent{
         margin: 0;
     }
+    .blogSec1osuter .blogSec1 .innerContent{
+        align-items: center;
+        padding-top: 90px;
+    }
+    .blogSec1osuter .blogSec1 .innerContent h1{
+        text-align: center;
+    }
 
 }
 
@@ -298,6 +305,10 @@
     }
     .blogSec1osuter .blogSec2{
         padding-top: 20px;
+    }
+    .blogSec1osuter .blogSec1{
+        height: 50vh;
+        background-position: center;
     }
 }
 
@@ -394,6 +405,14 @@
     .Testimonials .maintestimonial .testInner{
         gap: 0;
     }
+    .blogSec1osuter .blogSec1 .innerContent h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .blogSec1osuter .blogSec1 .innerContent p{
+        text-align: center;
+        font-size: 17px;
+    }
 }
 
 @media only screen and (max-width: 428px) {
@@ -475,6 +494,7 @@
     .Testimonials .maintestimonial .testInner .right{
         width: 100%;
     }
+    
 }
 
 @media only screen and (max-width: 360px) {
@@ -483,5 +503,9 @@
     }
     .sction9 .sec9Inner .left .leftCon .imgInner img{
         height: 100px;
+    }
+    .blogSec1osuter .blogSec1 .innerContent h1{
+        text-align: center;
+        font-size: 28px;
     }
 }

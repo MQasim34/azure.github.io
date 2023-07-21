@@ -61,6 +61,13 @@
     }
 }
 
+@media only screen and (max-width: 875px) {
+    .Testimonials .maintestimonial .testInner .right .testText h1 br,
+    .Testimonials .maintestimonial .testInner .right .testText p br{
+        display: none;
+    }
+}
+
 
 @media only screen and (max-width: 767px) {
     .moboResBan {
@@ -154,11 +161,45 @@
     }
     .sction9 .sec9Inner .left{
         width: 80%;
-        margin: auto;
+        margin: 0 auto 30px auto;
+        order: 2;
+
     }
     .sction9 .sec9Inner .right{
         width: 100%;
         text-align: center;
+    }
+
+    /* testimonial */
+    .Testimonials .maintestimonial .testInner .right .testText h1 br,
+    .Testimonials .maintestimonial .testInner .right .testText p br{
+        display: none;
+    }
+    .Testimonials .maintestimonial .testInner{
+        display: flex;
+        flex-direction: column;
+        margin-top: 45px;
+    }
+    .Testimonials .maintestimonial .testInner .left{
+        width: 70%;
+    }
+    .Testimonials .maintestimonial .testInner .left .imageInner{
+        width: auto;
+        height: auto;
+        border-radius: 260px 260px 0 0;
+    }
+    .Testimonials .Testimonials_title{
+        padding-top: 90px;
+    }
+
+    .Testimonials .maintestimonial .testInner .right .testText h1{
+        text-align: center;
+        font-size: 26px;
+        padding-top: 20px;
+    }
+    .Testimonials .maintestimonial .testInner .right .testText p{
+        text-align: center;
+        font-size: 18px;
     }
 
 }
@@ -193,6 +234,18 @@
     }
     footer .footerInner .footerright .footerNav ul{
         justify-content: center;
+    }
+    .Testimonials{
+        padding: 0  0 45px 0;
+    }
+    .Testimonials .maintestimonial .testInner .left{
+        width: 80%;
+    }
+    .Testimonials .maintestimonial .testInner .right{
+        width: 90%;
+    }
+    .Testimonials .maintestimonial .testInner .right{
+        order: 2;
     }
 }
 
@@ -278,6 +331,15 @@
     .sction9 .sec9Inner{
         padding: 45px 12px;
     }
+    .Testimonials .maintestimonial .testInner .right .testText h1{
+        font-size: 24px;
+    }
+    .Testimonials .maintestimonial .testInner .right .testText p{
+        font-size: 14px;
+    }
+    .Testimonials .maintestimonial .testInner{
+        gap: 0;
+    }
 }
 
 @media only screen and (max-width: 428px) {
@@ -347,6 +409,12 @@
 
     .secrtion5 {
         padding: 45px 12px;
+    }
+    .Testimonials .Testimonials_title{
+        padding-top: 45px;
+    }
+    .Testimonials .maintestimonial .testInner .right{
+        width: 100%;
     }
 }
 

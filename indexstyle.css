@@ -980,3 +980,73 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
     letter-spacing: 1.5px;
     text-transform: capitalize;
 } 
+
+
+
+
+/* Testimonials */
+.Testimonials {
+    padding: 150px 0 90px 0;
+}
+.Testimonials .Testimonials_title{
+    padding-top: 151px;
+    text-align: center;
+}
+.Testimonials .Testimonials_title h1{
+    font-family: 'butlermedium';
+    font-size: 60px;
+    color: #eebcd0;
+    text-decoration: none;
+    letter-spacing: .16px;
+}
+
+.Testimonials .maintestimonial{
+    max-width: 927px;
+    padding: 0 12px;
+    width: 100%;
+    margin: auto;
+}
+.Testimonials .maintestimonial .testInner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 37px;
+    gap: 45px;
+}
+.Testimonials .maintestimonial .testInner .left{
+    width: 24%;
+}
+.Testimonials .maintestimonial .testInner .left .imageInner{
+    width: 212px;
+    height: 271px;
+    border-radius: 160px 160px 0 0;
+    overflow: hidden;
+}
+.Testimonials .maintestimonial .testInner .left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Testimonials .maintestimonial .testInner .right{
+    width: 76%;
+}
+.Testimonials .maintestimonial .testInner .right .testText{
+    display: flex;
+    flex-direction: column;
+}
+.Testimonials .maintestimonial .testInner .right .testText h1{
+    font-family: 'butlermedium';
+    font-size: 30px;
+    color: #000;
+    text-decoration: none;
+    padding-top: 45px;
+    margin-bottom: 10px;
+    
+}
+.Testimonials .maintestimonial .testInner .right .testText p{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(36, 36, 36, 0.788);
+    line-height: 1.8;
+    letter-spacing: -.1px;
+}

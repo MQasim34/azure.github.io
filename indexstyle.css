@@ -962,24 +962,27 @@ footer .footerInner .footerright .rightLower .lowerRight {
     display: flex;
     gap: 30px;
 }
+
 footer .footerInner .footerright .rightLower .lowerRight a {
     color: #fff;
 }
+
 footer .footerInner .footerright .rightLower .lowerRight a i {
     font-size: 20px;
 }
 
-.footerButtom{
-    padding: 7px 13px ;
+.footerButtom {
+    padding: 7px 13px;
 }
-.footerButtom p{
+
+.footerButtom p {
     margin: 0;
     text-align: center;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1.5px;
     text-transform: capitalize;
-} 
+}
 
 
 
@@ -988,11 +991,13 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
 .Testimonials {
     padding: 150px 0 90px 0;
 }
-.Testimonials .Testimonials_title{
+
+.Testimonials .Testimonials_title {
     padding-top: 151px;
     text-align: center;
 }
-.Testimonials .Testimonials_title h1{
+
+.Testimonials .Testimonials_title h1 {
     font-family: 'butlermedium';
     font-size: 60px;
     color: #eebcd0;
@@ -1000,53 +1005,167 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
     letter-spacing: .16px;
 }
 
-.Testimonials .maintestimonial{
+.Testimonials .maintestimonial {
     max-width: 927px;
     padding: 0 12px;
     width: 100%;
     margin: auto;
 }
-.Testimonials .maintestimonial .testInner{
+
+.Testimonials .maintestimonial .testInner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 37px;
     gap: 45px;
 }
-.Testimonials .maintestimonial .testInner .left{
+
+.Testimonials .maintestimonial .testInner .left {
     width: 24%;
 }
-.Testimonials .maintestimonial .testInner .left .imageInner{
+
+.Testimonials .maintestimonial .testInner .left .imageInner {
     width: 212px;
     height: 271px;
     border-radius: 160px 160px 0 0;
     overflow: hidden;
 }
-.Testimonials .maintestimonial .testInner .left img{
+
+.Testimonials .maintestimonial .testInner .left img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.Testimonials .maintestimonial .testInner .right{
+
+.Testimonials .maintestimonial .testInner .right {
     width: 76%;
 }
-.Testimonials .maintestimonial .testInner .right .testText{
+
+.Testimonials .maintestimonial .testInner .right .testText {
     display: flex;
     flex-direction: column;
 }
-.Testimonials .maintestimonial .testInner .right .testText h1{
+
+.Testimonials .maintestimonial .testInner .right .testText h1 {
     font-family: 'butlermedium';
     font-size: 30px;
     color: #000;
     text-decoration: none;
     padding-top: 45px;
     margin-bottom: 10px;
-    
+
 }
-.Testimonials .maintestimonial .testInner .right .testText p{
+
+.Testimonials .maintestimonial .testInner .right .testText p {
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     color: rgba(36, 36, 36, 0.788);
     line-height: 1.8;
     letter-spacing: -.1px;
+}
+
+/* blogSec1 */
+.blogSec1osuter .blogSec1 {
+    background-image: linear-gradient(246deg, rgba(198, 182, 210, 0.716) 0%, rgba(255, 255, 255, 0.716) 100%), url(assets/images/blogsec1Img.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.blogSec1osuter .blogSec1 .innerContent {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    margin-top: 133px;
+    padding: 0 28px;
+}
+
+.blogSec1osuter .blogSec1 .innerContent h1 {
+    font-family: 'butlermedium';
+    font-size: 60px;
+    color: #000;
+    text-decoration: none;
+    /* letter-spacing:.16px; */
+    margin: 0;
+}
+
+.blogSec1osuter .blogSec1 .innerContent p {
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.blogSec1osuter .blogSec2 {
+    padding: 90px 0;
+}
+
+.blogSec1osuter .blogSec2 .sec2outer {
+    max-width: 967px;
+    width: 100%;
+    padding: 0 13px;
+    margin: auto;
+}
+
+.blogSec1osuter .blogSec2 .sec2outer .secInner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.blogSec1osuter .blogSec2 .sec2outer .secInner .left {
+    width: 40%;
+}
+
+.blogSec1osuter .blogSec2 .sec2outer .secInner .right {
+    width: 60%;
+    padding-left: 65px;
+}
+.blogSec1osuter .blogSec2.blogsec3 .sec2outer .secInner .right {
+    padding-left: 0;
+}
+
+.blogSec1osuter .blogSec2 .sec2outer .secInner .left .ImgInner {
+    width: 315px;
+    height: 472px;
+}
+
+.blogSec1osuter .blogSec2 .sec2outer .secInner .left .ImgInner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blogSec1osuter .blogSec2 .sec2outer .secInner .right h1{
+    font-family: 'butlermedium';
+    font-size: 40px;
+    color: #000;
+    text-decoration: none;
+    
+}
+.blogSec1osuter .blogSec2 .sec2outer .secInner .right p{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(36, 36, 36, 0.788);
+    line-height: 1.8;
+    /* letter-spacing: -.1px; */
+    margin-bottom: 45px;
+}
+.blogSec1osuter .blogSec2 .sec2outer .secInner .right button{
+    background-color: rgb(208, 216, 206);
+    color: #000;
+    border: 1px solid #000;
+    padding: 20px 70px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+
 }

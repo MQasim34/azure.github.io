@@ -36,34 +36,46 @@
     .section4 .sec4Content h1 {
         font-size: 30px;
     }
-    footer .footerInner .footerLeft .footerLogo h1{
+
+    footer .footerInner .footerLeft .footerLogo h1 {
         font-size: 42px;
     }
-    footer .footerInner .footerLeft{
+
+    footer .footerInner .footerLeft {
         padding-left: 12px;
     }
-    footer .footerInner .footerLeft .leftLower h1{
+
+    footer .footerInner .footerLeft .leftLower h1 {
         font-size: 30px;
     }
-    footer .footerInner .footerright h1{
+
+    footer .footerInner .footerright h1 {
         font-size: 42px;
     }
-    footer .footerInner .footerright{
+
+    footer .footerInner .footerright {
         padding-left: 20px;
     }
-    footer .footerInner .footerright .footerNav ul{
+
+    footer .footerInner .footerright .footerNav ul {
         gap: 30px;
         flex-wrap: wrap;
     }
+
     footer .footerInner .footerright .rightLower,
-    footer .footerInner .footerright .rightLower .lowerRight{
+    footer .footerInner .footerright .rightLower .lowerRight {
         flex-wrap: wrap;
+    }
+
+    .servicesec1 .sec1Inner .left .srvcImg {
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 875px) {
+
     .Testimonials .maintestimonial .testInner .right .testText h1 br,
-    .Testimonials .maintestimonial .testInner .right .testText p br{
+    .Testimonials .maintestimonial .testInner .right .testText p br {
         display: none;
     }
 }
@@ -147,168 +159,245 @@
         gap: 45px;
     }
 
-    .section7 .mainInner .outer_cnetn .left{
+    .section7 .mainInner .outer_cnetn .left {
         order: 2;
         text-align: center;
     }
+
     .section7 .mainInner .outer_cnetn .left,
     .section7 .mainInner .outer_cnetn .right {
         width: 100%;
     }
 
-    .sction9 .sec9Inner{
+    .sction9 .sec9Inner {
         flex-direction: column;
     }
-    .sction9 .sec9Inner .left{
+
+    .sction9 .sec9Inner .left {
         width: 80%;
         margin: 0 auto 30px auto;
         order: 2;
 
     }
-    .sction9 .sec9Inner .right{
+
+    .sction9 .sec9Inner .right {
         width: 100%;
         text-align: center;
     }
 
     /* testimonial */
     .Testimonials .maintestimonial .testInner .right .testText h1 br,
-    .Testimonials .maintestimonial .testInner .right .testText p br{
+    .Testimonials .maintestimonial .testInner .right .testText p br {
         display: none;
     }
-    .Testimonials .maintestimonial .testInner{
+
+    .Testimonials .maintestimonial .testInner {
         display: flex;
         flex-direction: column;
         margin-top: 45px;
     }
-    .Testimonials .maintestimonial .testInner .left{
+
+    .Testimonials .maintestimonial .testInner .left {
         width: 70%;
     }
-    .Testimonials .maintestimonial .testInner .left .imageInner{
+
+    .Testimonials .maintestimonial .testInner .left .imageInner {
         width: auto;
         height: auto;
         border-radius: 260px 260px 0 0;
     }
-    .Testimonials .Testimonials_title{
+
+    .Testimonials .Testimonials_title {
         padding-top: 90px;
     }
 
-    .Testimonials .maintestimonial .testInner .right .testText h1{
+    .Testimonials .maintestimonial .testInner .right .testText h1 {
         text-align: center;
         font-size: 26px;
         padding-top: 20px;
     }
-    .Testimonials .maintestimonial .testInner .right .testText p{
+
+    .Testimonials .maintestimonial .testInner .right .testText p {
         text-align: center;
         font-size: 18px;
     }
-    .blogSec1osuter .blogSec2{
+
+    .blogSec1osuter .blogSec2 {
         padding-bottom: 0;
     }
 
-    .blogSec1osuter .blogSec2 .sec2outer .secInner{
+    .blogSec1osuter .blogSec2 .sec2outer .secInner {
         display: flex;
         flex-direction: column;
     }
-    .blogSec1osuter .blogSec2 .sec2outer .secInner .left{
+
+    .blogSec1osuter .blogSec2 .sec2outer .secInner .left {
         width: 70%;
         margin: auto;
     }
-    .blogSec1osuter .blogSec2 .sec2outer .secInner .left .ImgInner{
+
+    .blogSec1osuter .blogSec2 .sec2outer .secInner .left .ImgInner {
         width: auto;
         height: auto;
     }
-    .blogSec1osuter .blogSec2 .sec2outer .secInner .right{
+
+    .blogSec1osuter .blogSec2 .sec2outer .secInner .right {
         width: 80%;
         text-align: center;
         padding: 0;
     }
-    .blogSec2.blogsec3 .sec2outer .secInner .right{
+
+    .blogSec2.blogsec3 .sec2outer .secInner .right {
         order: 2;
     }
+
     .blogSec1osuter .blogSec2 .sec2outer .secInner .right p br,
-    .blogSec1osuter .blogSec2 .sec2outer .secInner .right h1 br{
+    .blogSec1osuter .blogSec2 .sec2outer .secInner .right h1 br {
         display: none;
     }
-    .blogSec1osuter .blogSec2 .sec2outer .secInner .right h1{
+
+    .blogSec1osuter .blogSec2 .sec2outer .secInner .right h1 {
         font-size: 36px;
     }
-    .blogSec1osuter .blogSec1 .innerContent{
+
+    .blogSec1osuter .blogSec1 .innerContent {
         margin: 0;
     }
-    .blogSec1osuter .blogSec1 .innerContent{
+
+    .blogSec1osuter .blogSec1 .innerContent {
         align-items: center;
         padding-top: 90px;
     }
-    .blogSec1osuter .blogSec1 .innerContent h1{
+
+    .blogSec1osuter .blogSec1 .innerContent h1 {
         text-align: center;
     }
 
+    .servicesec1 .sec1Inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .servicesec1 .sec1Inner .right {
+        width: 80%;
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    .servicesec1 .sec1Inner .left {
+        width: 60%;
+        margin: auto;
+    }
+
+    .servicesec1 .sec1Inner .right h1 br,
+    .servicesec1 .sec1Inner .right p br {
+        display: none;
+    }
+
+    .servicesec1 .sec1Inner .right {
+        gap: 20px;
+    }
+    .servicesec1 .sec1Inner .right h1 {
+        text-align: center;
+        font-size: 42px;
+    }
+    .servicesec1 .sec1Inner .right p {
+        text-align: center;
+        font-size: 14px;
+        line-height: normal;
+    }
+    
 }
 
 @media only screen and (max-width: 600px) {
     header {
         position: relative;
     }
-    .sction9 .sec9Inner .left .leftCon .imgInner img{
+
+    .sction9 .sec9Inner .left .leftCon .imgInner img {
         height: 160px;
     }
 
     .section1 .section1content .contentOuter .contentInner {
         padding: 40px 10px 30px;
     }
-    footer .footerInner{
+
+    footer .footerInner {
         flex-direction: column;
     }
-    footer .footerInner .footerLeft{
+
+    footer .footerInner .footerLeft {
         width: 100%;
         border: none;
         text-align: center;
     }
-    footer .footerInner .footerLeft .leftLower{
+
+    footer .footerInner .footerLeft .leftLower {
         justify-content: center;
         gap: 30px;
     }
-    footer .footerInner .footerright{
+
+    footer .footerInner .footerright {
         width: 100%;
         text-align: center;
         padding: 0;
     }
-    footer .footerInner .footerright .footerNav ul{
+
+    footer .footerInner .footerright .footerNav ul {
         justify-content: center;
     }
-    .Testimonials{
-        padding: 0  0 45px 0;
+
+    .Testimonials {
+        padding: 0 0 45px 0;
     }
+
     .blogSec1osuter .blogSec2 .sec2outer .secInner .left,
-    .Testimonials .maintestimonial .testInner .left{
+    .Testimonials .maintestimonial .testInner .left {
         width: 80%;
     }
+
     .blogSec1osuter .blogSec2 .sec2outer .secInner .right,
-    .Testimonials .maintestimonial .testInner .right{
+    .Testimonials .maintestimonial .testInner .right {
         width: 90%;
     }
-    .Testimonials .maintestimonial .testInner .right{
+
+    .Testimonials .maintestimonial .testInner .right {
         order: 2;
     }
-    .blogSec1osuter .blogSec2 .sec2outer .secInner .right h1{
+
+    .blogSec1osuter .blogSec2 .sec2outer .secInner .right h1 {
         font-size: 30px;
     }
-    .blogSec1osuter .blogSec2 .sec2outer .secInner .right p{
+
+    .blogSec1osuter .blogSec2 .sec2outer .secInner .right p {
         font-size: 13px;
         margin-bottom: 20px;
     }
-    .blogSec1osuter .blogSec2 .sec2outer .secInner .right button{
+
+    .blogSec1osuter .blogSec2 .sec2outer .secInner .right button {
         padding: 16px 60px;
         text-transform: uppercase;
         letter-spacing: 1px;
 
     }
-    .blogSec1osuter .blogSec2{
+
+    .blogSec1osuter .blogSec2 {
         padding-top: 20px;
     }
-    .blogSec1osuter .blogSec1{
+
+    .blogSec1osuter .blogSec1 {
         height: 50vh;
         background-position: center;
+    }
+    .servicesec1{
+        margin: 0;
+    }
+    .servicesec1 .sec1Inner .left .srvcImg{
+        padding-left: 0;
+    }
+    .servicesec1 .sec1Inner .left,
+    .servicesec1 .sec1Inner .right{
+        width: 100%;
     }
 }
 
@@ -359,59 +448,89 @@
     .section6 {
         height: 60vh;
     }
-    .section7 .mainInner .outer_cnetn .left h1{
+
+    .section7 .mainInner .outer_cnetn .left h1 {
         font-size: 30px;
     }
-    .section7 .mainInner .outer_cnetn .left, .section7 .mainInner .outer_cnetn .right{
+
+    .section7 .mainInner .outer_cnetn .left,
+    .section7 .mainInner .outer_cnetn .right {
         padding: 0;
     }
-    .section7 .mainInner{
+
+    .section7 .mainInner {
         padding: 45px 12px;
     }
-    .section7 .mainInner .outer_cnetn .right img{
+
+    .section7 .mainInner .outer_cnetn .right img {
         height: auto;
     }
-    .section7 .mainInner .outer_cnetn .left p.formargin{
+
+    .section7 .mainInner .outer_cnetn .left p.formargin {
         margin: 0;
     }
-    .section8{
+
+    .section8 {
         height: 60vh;
     }
-    .section8 .inner h1{
+
+    .section8 .inner h1 {
         text-align: center;
         font-size: 30px;
 
     }
-    .section8 .inner .conbtn{
+
+    .section8 .inner .conbtn {
         text-align: center;
     }
-    .section8 .inner .conbtn button{
+
+    .section8 .inner .conbtn button {
         font-size: 13px;
     }
+
     .blogSec1osuter .blogSec2 .sec2outer .secInner .left,
     .blogSec1osuter .blogSec2 .sec2outer .secInner .right,
-    .sction9 .sec9Inner .left{
+    .sction9 .sec9Inner .left {
         width: 100%;
     }
-    .sction9 .sec9Inner{
+
+    .sction9 .sec9Inner {
         padding: 45px 12px;
     }
-    .Testimonials .maintestimonial .testInner .right .testText h1{
+
+    .Testimonials .maintestimonial .testInner .right .testText h1 {
         font-size: 24px;
     }
-    .Testimonials .maintestimonial .testInner .right .testText p{
+
+    .Testimonials .maintestimonial .testInner .right .testText p {
         font-size: 14px;
     }
-    .Testimonials .maintestimonial .testInner{
+
+    .Testimonials .maintestimonial .testInner {
         gap: 0;
     }
-    .blogSec1osuter .blogSec1 .innerContent h1{
+
+    .blogSec1osuter .blogSec1 .innerContent h1 {
         text-align: center;
         font-size: 30px;
     }
-    .blogSec1osuter .blogSec1 .innerContent p{
+
+    .blogSec1osuter .blogSec1 .innerContent p {
         text-align: center;
         font-size: 17px;
+    }
+    .servicesec1{
+        padding: 20px 0;
+    }
+    .servicesec1 .sec1Inner .right{
+        padding: 0;
+        gap: 10px;
+    }
+    .servicesec1 .sec1Inner .right h1{
+        font-size: 30px;
+    }
+    .servicesec1 .sec1Inner .right p{
+        font-size: 14px;
     }
 }
 
@@ -475,11 +594,13 @@
     .secrtion5 .lowerCon img {
         height: 320px;
     }
+
     .blogSec1osuter .blogSec2 .sec2outer .secInner .right h1,
     .secrtion5 .upper h1 {
         font-size: 30px;
     }
-    .blogSec1osuter .blogSec2 .sec2outer .secInner .right button{
+
+    .blogSec1osuter .blogSec2 .sec2outer .secInner .right button {
         font-size: 13px;
         padding: 14px 50px;
         letter-spacing: 0;
@@ -488,24 +609,37 @@
     .secrtion5 {
         padding: 45px 12px;
     }
-    .Testimonials .Testimonials_title{
+
+    .Testimonials .Testimonials_title {
         padding-top: 45px;
     }
-    .Testimonials .maintestimonial .testInner .right{
+
+    .Testimonials .maintestimonial .testInner .right {
         width: 100%;
     }
-    
+    .servicesec1{
+        padding-top: 13px;
+    }
+
 }
 
 @media only screen and (max-width: 360px) {
     .moboResBan .Moboouter .moboLogo a {
         display: none;
     }
-    .sction9 .sec9Inner .left .leftCon .imgInner img{
+
+    .sction9 .sec9Inner .left .leftCon .imgInner img {
         height: 100px;
     }
-    .blogSec1osuter .blogSec1 .innerContent h1{
+
+    .blogSec1osuter .blogSec1 .innerContent h1 {
         text-align: center;
         font-size: 28px;
+    }
+    .servicesec1 .sec1Inner .right h1{
+        font-size: 26px;
+    }
+    .servicesec1 .sec1Inner .right p{
+        font-size: 13px;
     }
 }

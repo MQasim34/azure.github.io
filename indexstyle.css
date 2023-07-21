@@ -1128,6 +1128,7 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
     width: 60%;
     padding-left: 65px;
 }
+
 .blogSec1osuter .blogSec2.blogsec3 .sec2outer .secInner .right {
     padding-left: 0;
 }
@@ -1142,14 +1143,16 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
     height: 100%;
     object-fit: cover;
 }
-.blogSec1osuter .blogSec2 .sec2outer .secInner .right h1{
+
+.blogSec1osuter .blogSec2 .sec2outer .secInner .right h1 {
     font-family: 'butlermedium';
     font-size: 40px;
     color: #000;
     text-decoration: none;
-    
+
 }
-.blogSec1osuter .blogSec2 .sec2outer .secInner .right p{
+
+.blogSec1osuter .blogSec2 .sec2outer .secInner .right p {
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     color: rgba(36, 36, 36, 0.788);
@@ -1157,7 +1160,8 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
     /* letter-spacing: -.1px; */
     margin-bottom: 45px;
 }
-.blogSec1osuter .blogSec2 .sec2outer .secInner .right button{
+
+.blogSec1osuter .blogSec2 .sec2outer .secInner .right button {
     background-color: rgb(208, 216, 206);
     color: #000;
     border: 1px solid #000;
@@ -1168,4 +1172,162 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
     letter-spacing: 1.5px;
     text-transform: capitalize;
 
+}
+
+
+/* servicesec1 */
+.servicesec1 {
+    background-color: #d8d8d8;
+    margin-top: 170px;
+    padding: 90px 0;
+}
+
+.servicesec1 .sec1Inner {
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    padding: 0 13px;
+
+}
+
+.servicesec1 .sec1Inner .right,
+.servicesec1 .sec1Inner .left {
+    width: 50%;
+}
+
+.servicesec1 .sec1Inner .left .srvcImg {
+    width: 510px;
+    padding-left: 23px;
+    margin: auto;
+}
+
+.servicesec1 .sec1Inner .left .srvcImg img {
+    width: 100%;
+}
+
+.servicesec1 .sec1Inner .right {
+    padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 35px;
+    margin-top: 67px;
+    /* padding-top: 10px; */
+}
+
+.servicesec1 .sec1Inner .right h1 {
+    font-family: 'butlerlight';
+    font-size: 50px;
+    color: #000;
+    text-decoration: none;
+
+}
+
+.servicesec1 .sec1Inner .right p {
+    font-size: 14px;
+    color: #474747;
+    font-weight: 300;
+    line-height: 1.78;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 4px;
+    letter-spacing: .01px;
+}
+
+/* sersec2 */
+.sersec2 .sersec2Img {
+    height: 414px;
+}
+
+.sersec2 .sersec2Img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* serSec3 */
+.serSec3 {
+    padding: 90px 0;
+}
+
+.serSec3 .sersec3Inner {
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    padding: 0 13px;
+
+}
+
+.serSec3 .sersec3Inner .sercontainer .inner {
+    display: flex;
+}
+
+.serSec3 .sersec3Inner .sercontainer .inner .left {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.serSec3 .sersec3Inner .sercontainer .inner .left h1 {
+    color: rgba(229, 190, 210, 1);
+    line-height: 1;
+    font-size: 60px;
+    text-align: left;
+    font-family: 'Butlermedium';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.serSec3 .sersec3Inner .sercontainer .inner .left h3 {
+    color: rgba(36, 36, 36, 1);
+    font-size: 24px;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.serSec3 .sersec3Inner .sercontainer .inner .left p {
+    color: rgba(36, 36, 36, 1);
+    line-height: 1.8;
+    letter-spacing: 0em;
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.serSec3 .sersec3Inner .sercontainer .inner .left button {
+    border-color: rgba(36, 36, 36, 1);
+    border: 1px solid #000;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: rgba(229, 190, 210, 1);
+    transition-duration: 0.5s;
+    padding: 15px 40px;
+    border-radius: 60px;
+    margin-top: 30px;
+
+}
+
+.serSec3 .sersec3Inner .sercontainer .inner .right {
+    width: 50%;
+}
+
+.serSec3 .sersec3Inner .sercontainer .inner .right .rightImg {
+    width: 100%;
+    height: 743px;
+}
+
+.serSec3 .sersec3Inner .sercontainer .inner .right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

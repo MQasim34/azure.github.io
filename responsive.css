@@ -794,6 +794,12 @@
     .secrtion5 .lowerCon img{
         height: 563px;
     }
+    .srction2 .brandsLogo .blInner{
+        gap: 20px;
+    }
+    .srction2 .brandsLogo .blInner .brandLogosleft p{
+        margin: 0;
+    }
 
 }
 

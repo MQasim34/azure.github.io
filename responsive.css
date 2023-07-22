@@ -352,6 +352,23 @@
     .sersec2 .sersec2Img .conMain br{
         display: none;
     }
+
+    .aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con h1{
+        font-size: 48px;
+    }
+    .aboutSec3 .sec3inner .innner .secImages{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .aboutSec3 .sec3inner .innner .secImages .img{
+        width: 47%;
+    }
+    .aboutSec4 .sec4Inner .sec4MainCon .inner{
+        align-items: center;
+    }
+    .aboutSec4 .sec4Inner .sec4MainCon {
+        background-image: linear-gradient(to right, rgba(0,0,0,.35),rgba(0,0,0,.35));
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -454,8 +471,24 @@
     .servicesec1 .sec1Inner .right{
         width: 100%;
     }
+    .aboutSec3,
     .serSec3{
-        padding: 10px 0 0 0;
+        padding: 13px 0 0 0;
+    }
+    .aboutWrapper .aboutSec1 .aboutSec1outer{
+        padding-top: 0;
+    }
+    .aboutWrapper{
+        margin-top: 10px;
+    }
+    .aboutSec3 .sec3inner .innner .secImages{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        gap: 13px;
+    }
+    .aboutSec3 .sec3inner .innner .secImages .img{
+        width: 100%;
     }
 }
 
@@ -506,9 +539,15 @@
     .section6 {
         height: 60vh;
     }
-
+    .aboutSec3 .sec3inner .innner .seccont h1,
     .section7 .mainInner .outer_cnetn .left h1 {
         font-size: 30px;
+    }
+    .aboutSec3 .sec3inner .innner .seccont p br{
+    display: none;
+    }
+    .aboutSec3 .sec3inner .innner .seccont p{
+        font-size: 14px;
     }
 
     .section7 .mainInner .outer_cnetn .left,
@@ -605,6 +644,42 @@
     .sersec2 .sersec2Img .conMain h1{
         font-size: 26px;
     }
+    .aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con h1{
+        font-size: 36px;
+    }
+    .aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con p br{
+        display: none;
+    }
+    .aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con{
+        margin-top: 25px;
+    }
+    .aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con p{
+        margin-top: 10px;
+    }
+    .aboutSec4 .sec4Inner .sec4MainCon .inner button,
+    .aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con button{
+        padding: 15px 40px;
+        font-size: 13px;
+    }
+    /* .aboutSec4 .sec4Inner .secImg{
+        height: 80vh;
+    } */
+    .aboutSec4 .sec4Inner .sec4MainCon .inner p br{
+        display: none;
+    }
+    .aboutSec4 .sec4Inner .sec4MainCon .inner p{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .aboutSec4 .sec4Inner .secImg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .aboutSec4{
+        margin-top: 45px;
+    }
+    
 }
 
 @media only screen and (max-width: 428px) {
@@ -667,7 +742,9 @@
     .secrtion5 .lowerCon img {
         height: 320px;
     }
-
+    .aboutSec3 .sec3inner .innner .seccont h1{
+        font-size: 22px;
+    }
     .blogSec1osuter .blogSec2 .sec2outer .secInner .right h1,
     .secrtion5 .upper h1 {
         font-size: 30px;
@@ -711,6 +788,9 @@
     .serSec3 .sersec3Inner .sercontainer .inner .right .rightImg{
         width: 100%;
     }
+    .aboutSec4 .sec4Inner .sec4MainCon .inner h1{
+        font-size: 42px;
+    }
 
 }
 
@@ -732,5 +812,8 @@
     }
     .servicesec1 .sec1Inner .right p{
         font-size: 13px;
+    }
+    .aboutSec4 .sec4Inner .sec4MainCon .inner h1{
+        font-size: 30px;
     }
 }

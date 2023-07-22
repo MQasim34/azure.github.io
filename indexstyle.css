@@ -156,7 +156,7 @@ body {
 }
 
 header {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     width: 100%;
@@ -199,7 +199,7 @@ header {
 
 .headerMain .haederInner {
     background: linear-gradient(to right, rgb(240, 214, 180), rgba(198, 182, 210, 0.521), rgb(240, 214, 180));
-    padding: 35px 0;
+    padding: 35px 0 29px 0;
 }
 
 .headerMain .haederInner .maincontainer {
@@ -224,14 +224,14 @@ header {
 }
 
 .headerMain .haederInner .maincontainer .headerLeft .brandLogo {
-    padding-left: 15px;
+    padding:5px 0 0 15px;
 }
 
 .headerMain .haederInner .maincontainer .headerRight .navigationBar {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 24px;
 }
 
 .headerMain .haederInner .maincontainer .headerRight .navigationBar ul {
@@ -250,12 +250,18 @@ header {
 }
 
 .headerMain .haederInner .maincontainer .headerRight .navigationBar nav ul li {
-    padding: 0 20px;
+    padding: 0 20px 0 21px;
     display: block;
 }
 
 .headerMain .haederInner .maincontainer .headerRight .navigationBar nav ul li:first-child {
-    padding: 0 10px;
+    padding: 0 39px 0 0;
+}
+.headerMain .haederInner .maincontainer .headerRight .navigationBar nav ul li:nth-child(2) {
+    padding: 0 15px 0 0;
+}
+.headerMain .haederInner .maincontainer .headerRight .navigationBar nav ul li:nth-child(3) {
+    padding: 0 17px 0 25px;
 }
 
 .headerMain .haederInner .maincontainer .headerRight .navigationBar nav ul li a {
@@ -263,8 +269,8 @@ header {
     font-size: 14px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
-    letter-spacing: 1.5px;
-    text-transform: capitalize;
+    letter-spacing: 1.4px;
+    text-transform: lowercase;
 }
 
 .headerMain .haederInner .maincontainer .headerRight .navigationBar .booking ul li a {
@@ -989,11 +995,11 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
 
 /* Testimonials */
 .Testimonials {
-    padding: 150px 0 90px 0;
+    padding: 0px 0 90px 0;
 }
 
 .Testimonials .Testimonials_title {
-    padding-top: 151px;
+    padding-top: 113px;
     text-align: center;
 }
 
@@ -1082,7 +1088,7 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
     justify-content: center;
     align-items: end;
     flex-direction: column;
-    margin-top: 133px;
+    /* margin-top: 133px; */
     padding: 0 28px;
 }
 
@@ -1371,4 +1377,170 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+
+/* aboutSec1 */
+.aboutWrapper{
+    margin-top: 0 ;
+}
+.aboutWrapper .aboutSec2{
+    
+    margin: 90px 0 0 0;
+}
+.aboutWrapper .aboutSec1 .aboutSec1outer{
+    max-width: 866px;
+    width: 100%;
+    padding: 96px 13px 0 13px ;
+    margin: auto;
+}
+.aboutWrapper .aboutSec1 .aboutSec1outer .inner .forImg{}
+.aboutWrapper .aboutSec1 .aboutSec1outer .inner .forImg img{
+    width: 100%;
+}
+.aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con{
+    margin-top: 45px;
+    text-align: center;
+}
+.aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con h1{
+    font-family: 'butlermedium';
+    font-size: 60px;
+    color: #eebcd0;
+    text-decoration: none;
+    letter-spacing: .16px;
+    margin: 0;
+}
+.aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con p{
+    font-size: 14px;
+    color: #474747;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+.aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con button{
+    background-color: rgb(208, 216, 206);
+    color: #000;
+    border: 1px solid #000;
+    padding: 17px 50px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+}
+
+/* aboutSec3 */
+
+.aboutSec3{
+    padding-top: 90px;
+}
+.aboutSec3 .sec3inner{
+    max-width: 1190px;
+    width: 100%;
+    margin: auto;
+    padding: 0 13px;
+}
+.aboutSec3 .sec3inner .innner .secImages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.aboutSec3 .sec3inner .innner .secImages img{
+    width: 100%;
+}
+.aboutSec3 .sec3inner .innner .seccont{
+    padding-top: 60px;
+    text-align: center;
+}
+.aboutSec3 .sec3inner .innner .seccont h1{
+    font-family: 'butlerlight';
+    font-size: 50px;
+    color: #000;
+    text-decoration: none;
+    letter-spacing: .16px;
+    margin: 0;
+}
+.aboutSec3 .sec3inner .innner .seccont p{
+    font-size: 14px;
+    color: #474747;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+
+/* aboutSec4 */
+.aboutSec4{
+    margin-top: 70px; 
+}
+.aboutSec4 .sec4Inner{
+    position: relative;
+}
+.aboutSec4 .sec4Inner .secImg{
+    background-image: linear-gradient(to right, rgba(0,0,0,.35),rgba(0,0,0,.35)),url(assets/images/aboutSEc4Img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 99vh;
+    background-attachment: fixed;
+}
+.aboutSec4 .sec4Inner .secImg img{
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+}
+.aboutSec4 .sec4Inner .sec4MainCon{
+    /* background-image: linear-gradient(to right, rgba(0,0,0,.35),rgba(0,0,0,.35)); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    
+}
+
+.aboutSec4 .sec4Inner .sec4MainCon .sec4Outer{
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+    padding: 0 13px;
+    height: 100%;
+}
+.aboutSec4 .sec4Inner .sec4MainCon .inner{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.aboutSec4 .sec4Inner .sec4MainCon .inner h1{
+    font-family: 'butlerlight';
+    font-size: 52px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: .16px;
+    margin: 0;
+}
+.aboutSec4 .sec4Inner .sec4MainCon .inner p{
+    font-size: 14px;
+    color: #c9c9c9;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+.aboutSec4 .sec4Inner .sec4MainCon .inner button{
+    background-color: rgb(208, 216, 206);
+    color: #000;
+    border: 1px solid #000;
+    padding:20px 50px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
 }

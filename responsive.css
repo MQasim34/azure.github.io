@@ -739,9 +739,9 @@
         width: 100%;
     }
 
-    .secrtion5 .lowerCon img {
+    /* .secrtion5 .lowerCon img {
         height: 320px;
-    }
+    } */
     .aboutSec3 .sec3inner .innner .seccont h1{
         font-size: 22px;
     }
@@ -790,6 +790,9 @@
     }
     .aboutSec4 .sec4Inner .sec4MainCon .inner h1{
         font-size: 42px;
+    }
+    .secrtion5 .lowerCon img{
+        height: 563px;
     }
 
 }

@@ -381,6 +381,38 @@ header {
     align-items: center;
     flex-wrap: wrap;
 }
+.srction2 .brandsLogo .blInner .brandLogosleft  p{
+    color: rgba(229,190,210,1);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 21px;
+    text-align: left;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: normal;
+}
+.srction2 .brandsLogo .blInner .brandLogosmmdl {
+    display: flex;
+    gap: 40px;
+}
+.srction2 .brandsLogo .blInner .brandLogosmmdl .brandLogos{
+    max-width: 101px;
+    max-height: 54px;
+    width: 100%;
+    height: auto;
+}
+.srction2 .brandsLogo .blInner .brandLogosright .brandLogos{
+    max-width: 450px;
+    max-height: 34px;
+    width: 100%;
+    height: auto;
+}
+.srction2 .brandsLogo .blInner .brandLogosright .brandLogos img,
+.srction2 .brandsLogo .blInner .brandLogosmmdl  img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 
 /* .srction2 .brandsLogo .blInner img{
     width: 100px;

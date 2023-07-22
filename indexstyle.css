@@ -1239,17 +1239,47 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
 /* sersec2 */
 .sersec2 .sersec2Img {
     height: 414px;
+    position: relative;
 }
 
 .sersec2 .sersec2Img img {
     width: 100%;
     height: 100%;
 }
+.sersec2 .sersec2Img .conMain{
+    position: absolute;
+    top: 0;
+    left: 13px;
+    right: 13px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sersec2 .sersec2Img .conMain h1{
+    font-family: 'butlerbold';
+    font-size: 38px;
+    color: #000;
+    text-decoration: none;
+    
+}
+.sersec2 .sersec2Img .conMain p{
+    font-size: 14px;
+    color: #474747;
+    font-weight: 300;
+    line-height: 1.78;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 7px;
+    letter-spacing:2px;
+}
 
 
 /* serSec3 */
 .serSec3 {
-    padding: 90px 0;
+    padding: 90px 0 0 0;
 }
 
 .serSec3 .sersec3Inner {
@@ -1262,6 +1292,7 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
 
 .serSec3 .sersec3Inner .sercontainer .inner {
     display: flex;
+    padding-bottom: 90px;
 }
 
 .serSec3 .sersec3Inner .sercontainer .inner .left {
@@ -1270,7 +1301,7 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
     justify-content: start;
     align-items: flex-start;
     flex-direction: column;
-    margin-top: 150px;
+    margin-top: 110px;
 }
 
 .serSec3 .sersec3Inner .sercontainer .inner .left h1 {
@@ -1290,6 +1321,7 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-style: italic;
+    margin-top: 5px;
 }
 
 .serSec3 .sersec3Inner .sercontainer .inner .left p {
@@ -1304,6 +1336,14 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
     margin-top: 20px;
 }
 
+.serSec3 .sersec3Inner .sercontainer .inner .left.forPadding {
+    padding-left: 45px;
+}
+.serSec3 .sersec3Inner .sercontainer .inner .left.forPadding button{
+    padding: 17px 70px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
 .serSec3 .sersec3Inner .sercontainer .inner .left button {
     border-color: rgba(36, 36, 36, 1);
     border: 1px solid #000;
@@ -1311,9 +1351,9 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
     letter-spacing: 1px;
     background-color: rgba(229, 190, 210, 1);
     transition-duration: 0.5s;
-    padding: 15px 40px;
+    padding: 18px 50px;
     border-radius: 60px;
-    margin-top: 30px;
+    margin-top: 15px;
 
 }
 
@@ -1322,8 +1362,9 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
 }
 
 .serSec3 .sersec3Inner .sercontainer .inner .right .rightImg {
-    width: 100%;
-    height: 743px;
+    width: 94.5%;
+    height: 680px;
+    margin: auto;
 }
 
 .serSec3 .sersec3Inner .sercontainer .inner .right img {

@@ -70,6 +70,16 @@
     .servicesec1 .sec1Inner .left .srvcImg {
         width: 100%;
     }
+
+    .serSec3 .sersec3Inner .sercontainer .inner{
+        gap: 30px;
+    }
+    .serSec3 .sersec3Inner .sercontainer .inner .left h1{
+        font-size: 42px;
+    }
+    .serSec3 .sersec3Inner .sercontainer .inner .left p br{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 875px) {
@@ -306,7 +316,42 @@
         font-size: 14px;
         line-height: normal;
     }
+    .serSec3 .sersec3Inner .sercontainer .inner{
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .serSec3 .sersec3Inner .sercontainer .inner .left{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        order: 2;
+    }
+    .serSec3 .sersec3Inner .sercontainer .inner .left h1{
+        font-size: 42px;
+        text-align: center;
+    }
+    .serSec3 .sersec3Inner .sercontainer .inner .left p {
+        text-align: center;
+        margin: 10px 0 0 0;
+    }
     
+
+    .serSec3 .sersec3Inner .sercontainer .inner .right{
+        width: 60%;
+        margin: auto;
+    }
+    .serSec3 .sersec3Inner .sercontainer .inner .left.forPadding{
+        padding-left: 0;
+    }
+    .sersec2 .sersec2Img .conMain h1{
+        font-size: 36px;
+    }
+    .sersec2 .sersec2Img .conMain br{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -330,6 +375,16 @@
         width: 100%;
         border: none;
         text-align: center;
+    }
+    .serSec3 .sersec3Inner .sercontainer .inner .left{
+        width: 100%;
+    }
+    .serSec3 .sersec3Inner .sercontainer .inner .right .rightImg{
+        height: auto;
+    }
+    .serSec3 .sersec3Inner .sercontainer .inner .right{
+        width: 80%;
+        margin: auto;
     }
 
     footer .footerInner .footerLeft .leftLower {
@@ -398,6 +453,9 @@
     .servicesec1 .sec1Inner .left,
     .servicesec1 .sec1Inner .right{
         width: 100%;
+    }
+    .serSec3{
+        padding: 10px 0 0 0;
     }
 }
 
@@ -486,6 +544,8 @@
 
     .section8 .inner .conbtn button {
         font-size: 13px;
+        padding: 14px 60px;
+    letter-spacing: 0;
     }
 
     .blogSec1osuter .blogSec2 .sec2outer .secInner .left,
@@ -531,6 +591,19 @@
     }
     .servicesec1 .sec1Inner .right p{
         font-size: 14px;
+    }
+    /* .serSec3{
+        padding: 15px 0 45px 0;
+    } */
+    .serSec3 .sersec3Inner .sercontainer .inner .right{
+        width: 100%;
+        margin: auto;
+    }
+    .serSec3 .sersec3Inner .sercontainer .inner{
+        padding-bottom: 45px;   
+    }
+    .sersec2 .sersec2Img .conMain h1{
+        font-size: 26px;
     }
 }
 
@@ -619,6 +692,24 @@
     }
     .servicesec1{
         padding-top: 13px;
+    }
+    .serSec3 .sersec3Inner .sercontainer .inner .left h1{
+        font-size: 30px;
+    }
+    .serSec3 .sersec3Inner .sercontainer .inner .left h3{
+        font-size: 17px;
+    }
+    .serSec3 .sersec3Inner .sercontainer .inner .left p{
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .serSec3 .sersec3Inner .sercontainer .inner .left button{
+        font-size: 13px;
+    padding: 14px 50px;
+    letter-spacing: 0;
+    }
+    .serSec3 .sersec3Inner .sercontainer .inner .right .rightImg{
+        width: 100%;
     }
 
 }

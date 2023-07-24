@@ -679,6 +679,35 @@
     .aboutSec4{
         margin-top: 45px;
     }
+    .contact_form{
+        padding: 10px;
+    }
+    .contact_form .formOuter .formInner .innerForWidth{
+        padding: 20px 0; 
+    }
+    .contact_form .formOuter .formInner .innerForWidth h1{
+        font-size: 28px;
+    }
+    .contact_form .formOuter .formInner .innerForWidth .forOuter{
+        gap: 15px;
+    }
+    .contact_form .formOuter .formInner .innerForWidth .forOuter input{
+        padding: 5px 10px;
+    }
+    .contact_form .formOuter .formInner .innerForWidth .forOuter input::placeholder{
+        font-size: 12px;
+    }
+    .contact_form .formOuter .formInner .innerForWidth .forOuter .subbmitbtn input{
+        width: 180px;
+        padding: 14px 20px 12px 20px;
+        font-size: 14px;
+    }
+    .contact_form .formOuter .formInner .innerForWidth .forOuter  textarea {
+        rows: 5;
+        cols: 10;
+        resize: vertical;
+        height: 20vh;
+      }
     
 }
 
@@ -799,6 +828,19 @@
     }
     .srction2 .brandsLogo .blInner .brandLogosleft p{
         margin: 0;
+    }
+    .blogSec1osuter .blogSec1.bookConsult {
+        background-image: linear-gradient(246deg, rgba(198, 182, 210, 0.716) 0%, rgba(255, 255, 255, 0.716) 100%), url(assets/images/sec8.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        width: 100%;
+        height: 100%;
+    }
+    .blogSec1osuter .blogSec1 .innerContent {
+        align-items: center;
+        padding-top: 45px;
+        padding-bottom: 24px;
     }
 
 }

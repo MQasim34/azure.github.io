@@ -1103,6 +1103,10 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
 }
 
 /* blogSec1 */
+.blogSec1osuter .blogSec1.bookConsult{
+    background-image: linear-gradient(246deg, rgba(198, 182, 210, 0.716) 0%, rgba(255, 255, 255, 0.716) 100%), url(assets/images/sec8.jpg);
+
+}
 .blogSec1osuter .blogSec1 {
     background-image: linear-gradient(246deg, rgba(198, 182, 210, 0.716) 0%, rgba(255, 255, 255, 0.716) 100%), url(assets/images/blogsec1Img.jpg);
     background-size: cover;
@@ -1575,4 +1579,78 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1.5px;
     text-transform: capitalize;
+}
+
+
+/* contact_form */
+
+.contact_form{
+    padding: 90px 13px;
+    background-color: #c9c9c9;
+}
+.contact_form .formOuter{
+    max-width: 925px;
+    background-color: #fff;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+.contact_form .formOuter .formInner{
+    border: 1px solid #9e9e9e7a;
+}
+.contact_form .formOuter .formInner .innerForWidth{
+    padding: 90px 0;
+}
+.contact_form .formOuter .formInner .innerForWidth h1{
+    text-align: center;
+    font-family: 'butlermedium';
+    font-size: 50px;
+    color: rgba(229,190,210,1);
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+.contact_form .formOuter .formInner .innerForWidth .forOuter textarea{
+    resize: none;
+    columns: 10;
+    /* height: 10vh; */
+}
+.contact_form .formOuter .formInner .innerForWidth .forOuter textarea,
+.contact_form .formOuter .formInner .innerForWidth .forOuter input {
+    border: none;
+    background: rgba(229,190,210,0.3);
+    padding:  10px;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    caret-color: #a3a3a3;
+    font-family: 'popins',  sans-serif;
+}
+.contact_form .formOuter .formInner .innerForWidth .forOuter{
+    max-width: 710px;
+    margin: auto;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.contact_form .formOuter .formInner .innerForWidth .forOuter input::placeholder {
+    text-align: center;
+    font-size: 14px;
+    color: rgba(153, 153, 153, 0.801);
+}
+.contact_form .formOuter .formInner .innerForWidth .forOuter .subbmitbtn{
+    display: inline-block
+}
+.contact_form .formOuter .formInner .innerForWidth .forOuter .subbmitbtn input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    padding: 15px 30px;
+    border: 1px solid rgba(208,216,206,1);
+    border-radius: 60px;
+    text-transform: uppercase;
+    background-color: rgba(208,216,206,1);
 }

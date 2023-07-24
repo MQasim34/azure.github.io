@@ -347,7 +347,7 @@ header {
     color: #000;
     font-size: 14px;
     margin-top: 25px;
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 
 .section1 .section1content .contentOuter .contentInner .bannerBtn {
@@ -358,6 +358,7 @@ header {
     padding: 13px 40px 15px;
     margin-top: 30px;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .section1 .section1content .contentOuter .contentInner .bannerBtn:hover {
@@ -791,7 +792,7 @@ header {
 
 }
 
-.section8 .inner button {
+.section8 .inner .sec8btn {
     border: 1px solid #000;
     background-color: #eebcd0;
     padding: 15px 60px;
@@ -800,6 +801,8 @@ header {
     letter-spacing: 2px;
     display: inline-block;
     text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
 }
 
 /* sction9 */
@@ -1386,6 +1389,7 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
     font-size: 14px;
     text-transform: uppercase;
 }
+.serSec3 .sersec3Inner .sercontainer .inner .left .serSec3btn,
 .serSec3 .sersec3Inner .sercontainer .inner .left button {
     border-color: rgba(36, 36, 36, 1);
     border: 1px solid #000;
@@ -1396,6 +1400,8 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
     padding: 18px 50px;
     border-radius: 60px;
     margin-top: 15px;
+    text-decoration: none;
+    color: #000;
 
 }
 
@@ -1453,8 +1459,9 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
     font-family: 'Poppins', sans-serif;
     line-height: 1.8;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
-.aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con button{
+.aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con .aboutSec1btn{
     background-color: rgb(208, 216, 206);
     color: #000;
     border: 1px solid #000;
@@ -1464,6 +1471,8 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1.5px;
     text-transform: capitalize;
+    text-decoration: none;
+    display: inline-block;
 }
 
 /* aboutSec3 */
@@ -1569,7 +1578,7 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
     line-height: 1.8;
     margin-top: 20px;
 }
-.aboutSec4 .sec4Inner .sec4MainCon .inner button{
+.aboutSec4 .sec4Inner .sec4MainCon .inner .aboutSec4btn{
     background-color: rgb(208, 216, 206);
     color: #000;
     border: 1px solid #000;
@@ -1579,6 +1588,7 @@ footer .footerInner .footerright .rightLower .lowerRight a i {
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1.5px;
     text-transform: capitalize;
+    text-decoration: none;
 }
 
 

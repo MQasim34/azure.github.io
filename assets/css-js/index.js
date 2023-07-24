@@ -46,3 +46,11 @@ closeIcon.addEventListener('click', function(){
     moboResBan.classList.add('active')
   }
 })
+
+
+
+// for contact page click function
+
+  function redirectToPage(pageName) {
+    window.location.href = pageName;
+  }

@@ -71,13 +71,15 @@
         width: 100%;
     }
 
-    .serSec3 .sersec3Inner .sercontainer .inner{
+    .serSec3 .sersec3Inner .sercontainer .inner {
         gap: 30px;
     }
-    .serSec3 .sersec3Inner .sercontainer .inner .left h1{
+
+    .serSec3 .sersec3Inner .sercontainer .inner .left h1 {
         font-size: 42px;
     }
-    .serSec3 .sersec3Inner .sercontainer .inner .left p br{
+
+    .serSec3 .sersec3Inner .sercontainer .inner .left p br {
         display: none;
     }
 }
@@ -307,67 +309,80 @@
     .servicesec1 .sec1Inner .right {
         gap: 20px;
     }
+
     .servicesec1 .sec1Inner .right h1 {
         text-align: center;
         font-size: 42px;
     }
+
     .servicesec1 .sec1Inner .right p {
         text-align: center;
         font-size: 14px;
         line-height: normal;
     }
-    .serSec3 .sersec3Inner .sercontainer .inner{
+
+    .serSec3 .sersec3Inner .sercontainer .inner {
         gap: 30px;
         display: flex;
         flex-direction: column;
 
     }
-    .serSec3 .sersec3Inner .sercontainer .inner .left{
+
+    .serSec3 .sersec3Inner .sercontainer .inner .left {
         width: 80%;
         margin: auto;
         text-align: center;
         align-items: center;
         order: 2;
     }
-    .serSec3 .sersec3Inner .sercontainer .inner .left h1{
+
+    .serSec3 .sersec3Inner .sercontainer .inner .left h1 {
         font-size: 42px;
         text-align: center;
     }
+
     .serSec3 .sersec3Inner .sercontainer .inner .left p {
         text-align: center;
         margin: 10px 0 0 0;
     }
-    
 
-    .serSec3 .sersec3Inner .sercontainer .inner .right{
+
+    .serSec3 .sersec3Inner .sercontainer .inner .right {
         width: 60%;
         margin: auto;
     }
-    .serSec3 .sersec3Inner .sercontainer .inner .left.forPadding{
+
+    .serSec3 .sersec3Inner .sercontainer .inner .left.forPadding {
         padding-left: 0;
     }
-    .sersec2 .sersec2Img .conMain h1{
+
+    .sersec2 .sersec2Img .conMain h1 {
         font-size: 36px;
     }
-    .sersec2 .sersec2Img .conMain br{
+
+    .sersec2 .sersec2Img .conMain br {
         display: none;
     }
 
-    .aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con h1{
+    .aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con h1 {
         font-size: 48px;
     }
-    .aboutSec3 .sec3inner .innner .secImages{
+
+    .aboutSec3 .sec3inner .innner .secImages {
         display: flex;
         flex-wrap: wrap;
     }
-    .aboutSec3 .sec3inner .innner .secImages .img{
+
+    .aboutSec3 .sec3inner .innner .secImages .img {
         width: 47%;
     }
-    .aboutSec4 .sec4Inner .sec4MainCon .inner{
+
+    .aboutSec4 .sec4Inner .sec4MainCon .inner {
         align-items: center;
     }
+
     .aboutSec4 .sec4Inner .sec4MainCon {
-        background-image: linear-gradient(to right, rgba(0,0,0,.35),rgba(0,0,0,.35));
+        background-image: linear-gradient(to right, rgba(0, 0, 0, .35), rgba(0, 0, 0, .35));
     }
 }
 
@@ -393,13 +408,16 @@
         border: none;
         text-align: center;
     }
-    .serSec3 .sersec3Inner .sercontainer .inner .left{
+
+    .serSec3 .sersec3Inner .sercontainer .inner .left {
         width: 100%;
     }
-    .serSec3 .sersec3Inner .sercontainer .inner .right .rightImg{
+
+    .serSec3 .sersec3Inner .sercontainer .inner .right .rightImg {
         height: auto;
     }
-    .serSec3 .sersec3Inner .sercontainer .inner .right{
+
+    .serSec3 .sersec3Inner .sercontainer .inner .right {
         width: 80%;
         margin: auto;
     }
@@ -461,33 +479,41 @@
         height: 50vh;
         background-position: center;
     }
-    .servicesec1{
+
+    .servicesec1 {
         margin: 0;
     }
-    .servicesec1 .sec1Inner .left .srvcImg{
+
+    .servicesec1 .sec1Inner .left .srvcImg {
         padding-left: 0;
     }
+
     .servicesec1 .sec1Inner .left,
-    .servicesec1 .sec1Inner .right{
+    .servicesec1 .sec1Inner .right {
         width: 100%;
     }
+
     .aboutSec3,
-    .serSec3{
+    .serSec3 {
         padding: 13px 0 0 0;
     }
-    .aboutWrapper .aboutSec1 .aboutSec1outer{
+
+    .aboutWrapper .aboutSec1 .aboutSec1outer {
         padding-top: 0;
     }
-    .aboutWrapper{
+
+    .aboutWrapper {
         margin-top: 10px;
     }
-    .aboutSec3 .sec3inner .innner .secImages{
+
+    .aboutSec3 .sec3inner .innner .secImages {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
         gap: 13px;
     }
-    .aboutSec3 .sec3inner .innner .secImages .img{
+
+    .aboutSec3 .sec3inner .innner .secImages .img {
         width: 100%;
     }
 }
@@ -539,14 +565,17 @@
     .section6 {
         height: 60vh;
     }
+
     .aboutSec3 .sec3inner .innner .seccont h1,
     .section7 .mainInner .outer_cnetn .left h1 {
         font-size: 30px;
     }
-    .aboutSec3 .sec3inner .innner .seccont p br{
-    display: none;
+
+    .aboutSec3 .sec3inner .innner .seccont p br {
+        display: none;
     }
-    .aboutSec3 .sec3inner .innner .seccont p{
+
+    .aboutSec3 .sec3inner .innner .seccont p {
         font-size: 14px;
     }
 
@@ -581,10 +610,10 @@
         text-align: center;
     }
 
-    .section8 .inner .conbtn button {
+    .section8 .inner .conbtn .sec8btn {
         font-size: 13px;
         padding: 14px 60px;
-    letter-spacing: 0;
+        letter-spacing: 0;
     }
 
     .blogSec1osuter .blogSec2 .sec2outer .secInner .left,
@@ -618,97 +647,121 @@
         text-align: center;
         font-size: 17px;
     }
-    .servicesec1{
+
+    .servicesec1 {
         padding: 20px 0;
     }
-    .servicesec1 .sec1Inner .right{
+
+    .servicesec1 .sec1Inner .right {
         padding: 0;
         gap: 10px;
     }
-    .servicesec1 .sec1Inner .right h1{
+
+    .servicesec1 .sec1Inner .right h1 {
         font-size: 30px;
     }
-    .servicesec1 .sec1Inner .right p{
+
+    .servicesec1 .sec1Inner .right p {
         font-size: 14px;
     }
+
     /* .serSec3{
         padding: 15px 0 45px 0;
     } */
-    .serSec3 .sersec3Inner .sercontainer .inner .right{
+    .serSec3 .sersec3Inner .sercontainer .inner .right {
         width: 100%;
         margin: auto;
     }
-    .serSec3 .sersec3Inner .sercontainer .inner{
-        padding-bottom: 45px;   
+
+    .serSec3 .sersec3Inner .sercontainer .inner {
+        padding-bottom: 45px;
     }
-    .sersec2 .sersec2Img .conMain h1{
+
+    .sersec2 .sersec2Img .conMain h1 {
         font-size: 26px;
     }
-    .aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con h1{
+
+    .aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con h1 {
         font-size: 36px;
     }
-    .aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con p br{
+
+    .aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con p br {
         display: none;
     }
-    .aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con{
+
+    .aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con {
         margin-top: 25px;
     }
-    .aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con p{
+
+    .aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con p {
         margin-top: 10px;
     }
+
     .aboutSec4 .sec4Inner .sec4MainCon .inner button,
-    .aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con button{
+    .aboutWrapper .aboutSec1 .aboutSec1outer .inner .sec1Con .aboutSec1btn {
         padding: 15px 40px;
         font-size: 13px;
     }
+
     /* .aboutSec4 .sec4Inner .secImg{
         height: 80vh;
     } */
-    .aboutSec4 .sec4Inner .sec4MainCon .inner p br{
+    .aboutSec4 .sec4Inner .sec4MainCon .inner p br {
         display: none;
     }
-    .aboutSec4 .sec4Inner .sec4MainCon .inner p{
+
+    .aboutSec4 .sec4Inner .sec4MainCon .inner p {
         text-align: center;
         margin-top: 10px;
     }
+
     .aboutSec4 .sec4Inner .secImg img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
-    .aboutSec4{
+
+    .aboutSec4 {
         margin-top: 45px;
     }
-    .contact_form{
+
+    .contact_form {
         padding: 10px;
     }
-    .contact_form .formOuter .formInner .innerForWidth{
-        padding: 20px 0; 
+
+    .contact_form .formOuter .formInner .innerForWidth {
+        padding: 20px 0;
     }
-    .contact_form .formOuter .formInner .innerForWidth h1{
+
+    .contact_form .formOuter .formInner .innerForWidth h1 {
         font-size: 28px;
     }
-    .contact_form .formOuter .formInner .innerForWidth .forOuter{
+
+    .contact_form .formOuter .formInner .innerForWidth .forOuter {
         gap: 15px;
     }
-    .contact_form .formOuter .formInner .innerForWidth .forOuter input{
+
+    .contact_form .formOuter .formInner .innerForWidth .forOuter input {
         padding: 5px 10px;
     }
-    .contact_form .formOuter .formInner .innerForWidth .forOuter input::placeholder{
+
+    .contact_form .formOuter .formInner .innerForWidth .forOuter input::placeholder {
         font-size: 12px;
     }
-    .contact_form .formOuter .formInner .innerForWidth .forOuter .subbmitbtn input{
+
+    .contact_form .formOuter .formInner .innerForWidth .forOuter .subbmitbtn input {
         width: 180px;
         padding: 14px 20px 12px 20px;
         font-size: 14px;
     }
-    .contact_form .formOuter .formInner .innerForWidth .forOuter  textarea {
+
+    .contact_form .formOuter .formInner .innerForWidth .forOuter textarea {
         rows: 5;
         cols: 10;
         resize: vertical;
         height: 20vh;
-      }
-    
+    }
+
 }
 
 @media only screen and (max-width: 428px) {
@@ -771,9 +824,10 @@
     /* .secrtion5 .lowerCon img {
         height: 320px;
     } */
-    .aboutSec3 .sec3inner .innner .seccont h1{
+    .aboutSec3 .sec3inner .innner .seccont h1 {
         font-size: 22px;
     }
+
     .blogSec1osuter .blogSec2 .sec2outer .secInner .right h1,
     .secrtion5 .upper h1 {
         font-size: 30px;
@@ -796,39 +850,51 @@
     .Testimonials .maintestimonial .testInner .right {
         width: 100%;
     }
-    .servicesec1{
+
+    .servicesec1 {
         padding-top: 13px;
     }
-    .serSec3 .sersec3Inner .sercontainer .inner .left h1{
+
+    .serSec3 .sersec3Inner .sercontainer .inner .left h1 {
         font-size: 30px;
     }
-    .serSec3 .sersec3Inner .sercontainer .inner .left h3{
+
+    .serSec3 .sersec3Inner .sercontainer .inner .left h3 {
         font-size: 17px;
     }
-    .serSec3 .sersec3Inner .sercontainer .inner .left p{
+
+    .serSec3 .sersec3Inner .sercontainer .inner .left p {
         font-size: 13px;
         margin-bottom: 10px;
     }
-    .serSec3 .sersec3Inner .sercontainer .inner .left button{
+
+    .serSec3 .sersec3Inner .sercontainer .inner .left .serSec3btn,
+    .serSec3 .sersec3Inner .sercontainer .inner .left button {
         font-size: 13px;
-    padding: 14px 50px;
-    letter-spacing: 0;
+        padding: 14px 50px;
+        letter-spacing: 0;
     }
-    .serSec3 .sersec3Inner .sercontainer .inner .right .rightImg{
+
+    .serSec3 .sersec3Inner .sercontainer .inner .right .rightImg {
         width: 100%;
     }
-    .aboutSec4 .sec4Inner .sec4MainCon .inner h1{
+
+    .aboutSec4 .sec4Inner .sec4MainCon .inner h1 {
         font-size: 42px;
     }
-    .secrtion5 .lowerCon img{
+
+    .secrtion5 .lowerCon img {
         height: 563px;
     }
-    .srction2 .brandsLogo .blInner{
+
+    .srction2 .brandsLogo .blInner {
         gap: 20px;
     }
-    .srction2 .brandsLogo .blInner .brandLogosleft p{
+
+    .srction2 .brandsLogo .blInner .brandLogosleft p {
         margin: 0;
     }
+
     .blogSec1osuter .blogSec1.bookConsult {
         background-image: linear-gradient(246deg, rgba(198, 182, 210, 0.716) 0%, rgba(255, 255, 255, 0.716) 100%), url(assets/images/sec8.jpg);
         background-position: center;
@@ -837,6 +903,7 @@
         width: 100%;
         height: 100%;
     }
+
     .blogSec1osuter .blogSec1 .innerContent {
         align-items: center;
         padding-top: 45px;
@@ -858,13 +925,16 @@
         text-align: center;
         font-size: 28px;
     }
-    .servicesec1 .sec1Inner .right h1{
+
+    .servicesec1 .sec1Inner .right h1 {
         font-size: 26px;
     }
-    .servicesec1 .sec1Inner .right p{
+
+    .servicesec1 .sec1Inner .right p {
         font-size: 13px;
     }
-    .aboutSec4 .sec4Inner .sec4MainCon .inner h1{
+
+    .aboutSec4 .sec4Inner .sec4MainCon .inner h1 {
         font-size: 30px;
     }
 }
